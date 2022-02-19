@@ -30,6 +30,12 @@
     "packaging": "jar"
   },
   {
+    "projectPath": ":workflow-testing",
+    "artifactId": "workflow-testing-jvm",
+    "pomName": "Workflow Testing",
+    "packaging": "jar"
+  },
+  {
     "projectPath": ":workflow-tracing",
     "artifactId": "workflow-tracing",
     "pomName": "Workflow Tracing",
@@ -44,7 +50,7 @@
   {
     "projectPath": ":workflow-ui:compose-tooling",
     "artifactId": "workflow-ui-compose-tooling",
-    "pomName": "Workflow UX Compose Tooling",
+    "pomName": "Workflow UI Compose Tooling",
     "packaging": "aar"
   },
   {

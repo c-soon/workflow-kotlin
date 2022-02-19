@@ -101,7 +101,7 @@ allprojects.filterNot { it.path.startsWith(":samples") }
 // generate the documentation site.
 apply(plugin = "org.jetbrains.dokka")
 
-// Configuration that applies to all dokka tasks, both those used for generating javadoc artifacts.json
+// Configuration that applies to all dokka tasks, both those used for generating javadoc artifacts
 // and the documentation site.
 subprojects {
   tasks.withType<DokkaTask>().configureEach {
@@ -151,8 +151,7 @@ tasks.register<Copy>("siteDokka") {
   into(buildDir.resolve("dokka/workflow"))
 }
 
-val artifactsDump by tasks.registering(com.squareup.workflow1.buildsrc.ArtifactDumpTask::class)
-
-val artifactsCheck by tasks.registering(com.squareup.workflow1.buildsrc.ArtifactCheckTask::class) {
+val artifactsDump by tasks.registering(com.squareup.workflow1.buildsrc.artifacts.ArtifactDumpTask::class)
+val artifactsCheck by tasks.registering(com.squareup.workflow1.buildsrc.artifacts.ArtifactCheckTask::class) {
   dependsOn("check")
 }
