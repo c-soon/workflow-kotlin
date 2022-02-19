@@ -1,0 +1,80 @@
+[
+  {
+    "projectPath": ":internal-testing-utils",
+    "artifactId": "workflow-internal-testing-utils",
+    "pomName": "Workflow internal testing utilities",
+    "packaging": "jar"
+  },
+  {
+    "projectPath": ":trace-encoder",
+    "artifactId": "trace-encoder",
+    "pomName": "Trace Encoder",
+    "packaging": "jar"
+  },
+  {
+    "projectPath": ":workflow-core",
+    "artifactId": "workflow-core-jvm",
+    "pomName": "Workflow Core",
+    "packaging": "jar"
+  },
+  {
+    "projectPath": ":workflow-runtime",
+    "artifactId": "workflow-runtime-jvm",
+    "pomName": "Workflow Runtime",
+    "packaging": "jar"
+  },
+  {
+    "projectPath": ":workflow-rx2",
+    "artifactId": "workflow-rx2",
+    "pomName": "Workflow RxJava2",
+    "packaging": "jar"
+  },
+  {
+    "projectPath": ":workflow-tracing",
+    "artifactId": "workflow-tracing",
+    "pomName": "Workflow Tracing",
+    "packaging": "jar"
+  },
+  {
+    "projectPath": ":workflow-ui:compose",
+    "artifactId": "workflow-ui-compose",
+    "pomName": "Workflow UI Compose",
+    "packaging": "aar"
+  },
+  {
+    "projectPath": ":workflow-ui:compose-tooling",
+    "artifactId": "workflow-ui-compose-tooling",
+    "pomName": "Workflow UX Compose Tooling",
+    "packaging": "aar"
+  },
+  {
+    "projectPath": ":workflow-ui:container-android",
+    "artifactId": "workflow-ui-container-android",
+    "pomName": "Workflow UI Container Android",
+    "packaging": "aar"
+  },
+  {
+    "projectPath": ":workflow-ui:container-common",
+    "artifactId": "workflow-ui-container-common-jvm",
+    "pomName": "Workflow UI Container",
+    "packaging": "jar"
+  },
+  {
+    "projectPath": ":workflow-ui:core-android",
+    "artifactId": "workflow-ui-core-android",
+    "pomName": "Workflow UI Android",
+    "packaging": "aar"
+  },
+  {
+    "projectPath": ":workflow-ui:core-common",
+    "artifactId": "workflow-ui-core-common-jvm",
+    "pomName": "Workflow UI Core",
+    "packaging": "jar"
+  },
+  {
+    "projectPath": ":workflow-ui:radiography",
+    "artifactId": "workflow-ui-radiography",
+    "pomName": "Workflow UI Radiography Support",
+    "packaging": "aar"
+  }
+]
