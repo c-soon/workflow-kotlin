@@ -1,5 +1,6 @@
 package com.squareup.workflow1.ui.container
 
+import com.squareup.workflow1.ui.ContainerScreen
 import com.squareup.workflow1.ui.Screen
 import com.squareup.workflow1.ui.WorkflowUiExperimentalApi
 
@@ -17,7 +18,7 @@ import com.squareup.workflow1.ui.WorkflowUiExperimentalApi
 public class BackStackScreen<StackedT : Screen>(
   bottom: StackedT,
   rest: List<StackedT>
-) : Screen {
+) : ContainerScreen<StackedT>(listOf(bottom) + rest) {
   /**
    * Creates a screen with elements listed from the [bottom] to the top.
    */

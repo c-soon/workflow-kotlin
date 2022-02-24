@@ -1,5 +1,6 @@
 package com.squareup.workflow1.ui.container
 
+import com.squareup.workflow1.ui.LeafScreen
 import com.squareup.workflow1.ui.Screen
 import com.squareup.workflow1.ui.WorkflowUiExperimentalApi
 
@@ -12,7 +13,7 @@ import com.squareup.workflow1.ui.WorkflowUiExperimentalApi
 public class BodyAndModalsScreen<B : Screen, M : Overlay>(
   public val body: B,
   public val modals: List<M> = emptyList()
-) : Screen {
+) : LeafScreen {
   public constructor(
     body: B,
     vararg modals: M
