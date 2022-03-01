@@ -2,15 +2,13 @@ plugins {
   `java-library`
   kotlin("jvm")
   id("com.google.devtools.ksp")
-  id("com.vanniktech.maven.publish")
+  published
 }
 
 java {
   sourceCompatibility = JavaVersion.VERSION_1_8
   targetCompatibility = JavaVersion.VERSION_1_8
 }
-
-apply(from = rootProject.file(".buildscript/configure-maven-publish.gradle"))
 
 dependencies {
   compileOnly(libs.jetbrains.annotations)

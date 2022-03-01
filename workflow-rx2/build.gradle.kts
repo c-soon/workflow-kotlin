@@ -1,15 +1,13 @@
 plugins {
   `java-library`
   kotlin("jvm")
-  id("org.jetbrains.dokka")
+  published
 }
 
 java {
   sourceCompatibility = JavaVersion.VERSION_1_8
   targetCompatibility = JavaVersion.VERSION_1_8
 }
-
-apply(from = rootProject.file(".buildscript/configure-maven-publish.gradle"))
 
 dependencies {
   compileOnly(libs.jetbrains.annotations)
