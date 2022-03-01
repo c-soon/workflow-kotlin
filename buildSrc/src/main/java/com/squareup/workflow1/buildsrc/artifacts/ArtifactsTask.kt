@@ -7,8 +7,10 @@ import org.gradle.api.DefaultTask
 import org.gradle.api.Project
 import org.gradle.api.file.ProjectLayout
 import org.gradle.api.file.RegularFile
+import org.gradle.api.plugins.JavaPluginExtension
 import org.gradle.api.tasks.Internal
 import org.gradle.api.tasks.OutputFile
+import org.gradle.kotlin.dsl.getByType
 
 abstract class ArtifactsTask(
   private val projectLayout: ProjectLayout
@@ -69,11 +71,17 @@ abstract class ArtifactsTask(
           }
           .takeIf { it.isNotEmpty() }
           ?.let { (artifactId, pomName, packaging) ->
+
+            val javaVersion = sub.extensions.getByType(JavaPluginExtension::class)
+              .sourceCompatibility
+              .toString()
+
             ArtifactConfig(
               projectPath = sub.path,
               artifactId = artifactId,
               pomName = pomName,
-              packaging = packaging
+              packaging = packaging,
+              javaVersion = javaVersion
             )
           }
       }

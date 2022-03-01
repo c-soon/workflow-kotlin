@@ -3,84 +3,98 @@
     "projectPath": ":internal-testing-utils",
     "artifactId": "workflow-internal-testing-utils",
     "pomName": "Workflow internal testing utilities",
-    "packaging": "jar"
+    "packaging": "jar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":trace-encoder",
     "artifactId": "trace-encoder",
     "pomName": "Trace Encoder",
-    "packaging": "jar"
+    "packaging": "jar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-core",
     "artifactId": "workflow-core-jvm",
     "pomName": "Workflow Core",
-    "packaging": "jar"
+    "packaging": "jar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-runtime",
     "artifactId": "workflow-runtime-jvm",
     "pomName": "Workflow Runtime",
-    "packaging": "jar"
+    "packaging": "jar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-rx2",
     "artifactId": "workflow-rx2",
     "pomName": "Workflow RxJava2",
-    "packaging": "jar"
+    "packaging": "jar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-testing",
     "artifactId": "workflow-testing-jvm",
     "pomName": "Workflow Testing",
-    "packaging": "jar"
+    "packaging": "jar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-tracing",
     "artifactId": "workflow-tracing",
     "pomName": "Workflow Tracing",
-    "packaging": "jar"
+    "packaging": "jar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-ui:compose",
     "artifactId": "workflow-ui-compose",
     "pomName": "Workflow UI Compose",
-    "packaging": "aar"
+    "packaging": "aar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-ui:compose-tooling",
     "artifactId": "workflow-ui-compose-tooling",
     "pomName": "Workflow UI Compose Tooling",
-    "packaging": "aar"
+    "packaging": "aar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-ui:container-android",
     "artifactId": "workflow-ui-container-android",
     "pomName": "Workflow UI Container Android",
-    "packaging": "aar"
+    "packaging": "aar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-ui:container-common",
     "artifactId": "workflow-ui-container-common-jvm",
     "pomName": "Workflow UI Container",
-    "packaging": "jar"
+    "packaging": "jar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-ui:core-android",
     "artifactId": "workflow-ui-core-android",
     "pomName": "Workflow UI Android",
-    "packaging": "aar"
+    "packaging": "aar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-ui:core-common",
     "artifactId": "workflow-ui-core-common-jvm",
     "pomName": "Workflow UI Core",
-    "packaging": "jar"
+    "packaging": "jar",
+    "javaVersion": "1.8"
   },
   {
     "projectPath": ":workflow-ui:radiography",
     "artifactId": "workflow-ui-radiography",
     "pomName": "Workflow UI Radiography Support",
-    "packaging": "aar"
+    "packaging": "aar",
+    "javaVersion": "1.8"
   }
 ]
